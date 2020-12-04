@@ -1,0 +1,25 @@
+h1 {
+    color: purple;
+}
+
+/** {
+    border: solid;
+}*/
+.header{
+    background-color: rgb(0, 255, 21);
+    display: flex;
+    justify-content: space-between;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
